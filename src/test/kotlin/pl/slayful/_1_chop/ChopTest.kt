@@ -1,4 +1,4 @@
-package pl.slayful.chop
+package pl.slayful._1_chop
 
 import org.junit.Test
 import kotlin.test.assertEquals
