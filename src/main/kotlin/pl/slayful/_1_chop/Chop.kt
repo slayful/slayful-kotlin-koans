@@ -8,6 +8,11 @@ class Chop {
      * Based on: http://codekata.com/kata/kata02-karate-chop/
      */
     fun chop(value: Int, array : IntArray): Int {
-         return -1
+        for (i in array.indices) {
+            if (array[i] == value) {
+                return i
+            }
+        }
+        return -1
     }
 }
